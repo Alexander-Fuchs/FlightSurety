@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">FlightSurety</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<main class="container">
+    <div id="display-wrapper" class="top-20 align-items-start"></div>
+    <div class="form-row top-20">
+        <div class="form-group col-md-6">
+            <input type="text" class="form-control" id="flight-number" placeholder="Flight" value="ND1309">
+        </div>
+        <div class="form-group col-md-6">
+            <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+    </div>
+    <div class="top-20"><h2>Passengers actions</h2></div>
+    <div class="form-row top-20">
+        <div class="form-group col-md-6">
+            <label>Flight</label>
+            <input type="text" class="form-control" id="insurance-flight" value="ND1309">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Insurance amount</label>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">ETH</div>
+                </div>
+                <input type="text" class="form-control" id="insurance-amount">
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary" id="buy-insurance">Buy insurance</button>
+</main>
+
+</body>
+</html>
